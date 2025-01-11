@@ -1,4 +1,4 @@
-package com.e_com.config;
+package com.e_com.Config;
 
 import java.io.IOException;
 import java.util.Collection;
