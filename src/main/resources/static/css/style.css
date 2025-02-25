@@ -11,3 +11,25 @@
 .error {
 	color: red;
 } 
+.footer {
+    
+    margin-top: auto; /* Push footer to the bottom */
+   
+}
+html, body {
+    height: 100%; /* Ensure full height */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main-content {
+    flex: 1; /* Pushes the footer down */
+}
+
+.footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
